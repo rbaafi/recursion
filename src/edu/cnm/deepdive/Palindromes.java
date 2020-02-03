@@ -8,7 +8,7 @@ public final class Palindromes {
     return source.length() <= 1
         || (
             source.charAt(0) == source.charAt(source.length() - 1)
-            && isPalindromeClean(source.substring(1, source.length() - 1))
+            && isPalindromeClean(source.substring(1, source.length() - 1).toLowerCase())
         );
   }
 
