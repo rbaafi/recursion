@@ -4,7 +4,7 @@ public final class Palindromes {
 
   private Palindromes() {}
 
-  private static boolean isPalindrome(String source) {
+  private static boolean isPalindromeClean(String source) {
     return source.length() <= 1
         || (
             source.charAt(0) == source.charAt(source.length() - 1)
@@ -12,6 +12,8 @@ public final class Palindromes {
         );
   }
 
-  public 
+  public static boolean isPalindrome(String source) {
+    
+  }
 
 }
